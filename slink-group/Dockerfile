@@ -5,4 +5,14 @@ RUN curl --location --show-error -O --url "https://bun.sh/install"
 RUN bash /opt/install
 RUN npm install -g @ts.adligo.org/slink
 WORKDIR /app
-
+COPY . . 
+WORKDIR /app/slink_group_deps.ts.adligo.org
+RUN npm install
+WORKDIR /app/slink_group.ts.adligo.org
+RUN npm run setup
+WORKDIR /app
+RUN chmod +x check_versions.sh
+RUN chmod +x run_tests.sh
+ENV PATH="$PATH:~/.bun/bin"
+ENV USHELL="/bin/sh"
+CMD ["sh"]

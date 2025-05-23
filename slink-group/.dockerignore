@@ -1,0 +1,6 @@
+build_docker.sh
+Dockerfile
+README.md
+setup
+!check_versions.sh
+!run_tests.sh
