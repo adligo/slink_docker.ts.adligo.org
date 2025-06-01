@@ -35,6 +35,8 @@ docker run -it slink-group-apps
 ```
 
 ```
-docker run -it slink-group-apps bash check_versions.sh
-docker run -it slink-group-apps bash run_tests.sh
+docker run -it slink-group-apps check_versions.sh
+docker run -it slink-group-apps run_tests.sh
+ docker exec --user root -it <container_id_from_docker_ps>  bash
+
 ```
