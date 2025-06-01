@@ -1,10 +1,10 @@
-#!/bin/sh
+#!/bin/bash
 
 export CI=true
 
+export PATH="$PATH:~/.bun/bin"
+
 pwd
 cd slink_group.ts.adligo.org
-pwd
 npm run build
-npm run setup
 npm run tests
