@@ -5,3 +5,11 @@ https://github.com/adligo/slink_group_deps.ts.adligo.org/blob/main/DOCKER_INSTAL
 here
 
 [SLink_Docker Root README.md](../README.md)
+
+TODO This is currently quite disorganized.  However, the following files will provide some clues;
+
+
+
+[DOCKER_INSTALL.md](./DOCKER_INSTALL.md)
+
+[JENKINS_SCRIPT.md](./JENKINS_SCRIPT.md)
