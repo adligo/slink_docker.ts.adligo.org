@@ -8,12 +8,18 @@ Note:  SLink is actually a fairly screwy (chicken versus egg ) build, because th
 
 ### SLink-Solo
 
+TODO: This will contain a method to build SLink in a docker image with all of it's dependencies coming from npm the usual way you do this with npm package.json projects.
+
 [SLink-Solo](slink-solo/README.md)
 
 ### SLink-Group
 
+This contains a method to build SLink in a docker image with all of it's dependencies coming from local copies of the Adligo projects from github.
+
 [SLink-Group](slink-group/README.md)
 
 ### Jenkins
+
+TODO: This will contain information to setup a Jenkins build server in a docker image that can build SLink.
 
 [Jenkins](jenkins/README.md)
